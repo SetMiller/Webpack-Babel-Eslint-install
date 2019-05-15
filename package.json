@@ -1,0 +1,35 @@
+{
+  "name": "Webpack-Babel-Eslint-install",
+  "version": "1.0.0",
+  "description": "Цели и задачи:\r -\r * Отработать процесс установки и настройки Webpack + Babel;\r * Настроить Eslint;\r * Зафиксировать ход выполнения всех этапов",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SetMiller/Webpack-Babel-Eslint-install.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SetMiller/Webpack-Babel-Eslint-install/issues"
+  },
+  "homepage": "https://github.com/SetMiller/Webpack-Babel-Eslint-install#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
